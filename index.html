@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <button id="darkmode">
+        <span class="button_top"> DarkMode
+        </span>
+    </button>
+
+    <div class="login caja">
+        <div class="bar">
+            <button class="menuBtn" id="registrarse">Registrarse</button>
+        </div>
+        <h3>Login</h3>
+        <form>
+            <input type="text" placeholder="Username" id="usernameL">
+            <input type="password" placeholder="Password" id="passwordL">
+
+            <p id="warningL" class="warning"></p>
+            <p class="warningGreen" id="warningGL"></p>
+
+
+            <button class="submit" id="login_submit">Submit</button>
+        </form>
+    </div>
+
+
+    <div class="register caja">
+        <div class="bar">
+            <button class="menuBtn" id="login">Login</button>
+        </div>
+        <h3>Register</h3>
+        <form>
+            <input type="text" placeholder="Username" id="usernameR">
+            <input type="password" placeholder="Password" id="passwordR">
+            <input type="password" placeholder="Confirm your password" id="confirm_passwordR">
+
+            <p class="warning" id="warningR"></p>
+            <p class="warningGreen" id="warningGR"></p>
+
+            <button class="submit" id="register_submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="rickandmorty__app--container">
+        <header>
+            <div id="username_display"></div>
+            <h1>Rick and Morty</h1>
+            <form id="form">
+                <input type="text" id="search" class="search" placeholder="Search for a character">
+            </form>
+        </header>
+        <main id="main" class="main">
+        </main>
+    </div>
+
+
+
+
+<script src="js/UserData.js"></script>
+<script src="js/SignUp.js"></script>
+<script src="js/Login.js"></script>
+<script src="js/rickandmorty.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
