@@ -1,4 +1,4 @@
-# ProyectoFinal_JS
+# final-project-javascript-course
 
 This was a project made for a Javascript course I made at Coderhouse.
 API used: https://rickandmortyapi.com/
