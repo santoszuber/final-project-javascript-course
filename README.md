@@ -1,6 +1,10 @@
 # ProyectoFinal_JS
-**ES**
-> En este repositorio, voy a ir trabajando con el desarrollo de mi proyecto de Javascript para el curso de Coderhouse a medida que voy aprendiendo.
 
-**EN**
-> I'm using this repository to work on my Javascript proyect for a Coderhouse course while I'm learning it. 
+This was a project made for a Javascript course I made at Coderhouse.
+API used: https://rickandmortyapi.com/
+
+First of all, you have a Register and a Log in page.
+![Register page](https://i.imgur.com/mNNoOZG.png "Register")
+
+When you have already logged in, you can start searching for Rick and Morty's characters
+![Search page](https://i.imgur.com/t8jviH0.png "Search")
